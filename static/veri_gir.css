@@ -1,0 +1,77 @@
+@keyframes color-change {
+    0%{background-color: #808080;}
+    10%{background-color: #808080;}
+    20%{background-color: #FFFFFF;}
+    30%{background-color: #FF0000;}
+    40%{background-color: #FF00FF;}
+    50%{background-color: #C0FF00;}
+    60%{background-color: #FFFF00;}
+    70%{background-color: #FF7F00;}
+    80%{background-color: #0000FF;}
+    90%{background-color: #30D5C8;}
+    100%{background-color: #808080;}
+    
+}
+
+@keyframes size-change {
+    0%{font-size: 40px;}
+    50%{font-size: 45px;}
+    100%{font-size: 40px;}
+}
+
+body {
+    animation: color-change 30s infinite;
+}
+
+.username_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.password_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.col1_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.col2_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.col3_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.col4_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.col5_input{
+    opacity: 0.7;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.form-submit-button{
+    border-radius: 30px;
+    background-color: white;
+    font-size: 40px;
+    opacity: 0.7;
+}
+
+.form-submit-button:hover{
+    animation: size-change 2s infinite;
+}

@@ -1,0 +1,54 @@
+
+.title {
+    font-family: DINNextW05-Bold,arial,georgia,sans-serif;
+}
+
+.alter_title {
+    font-family: DINNextW05-Bold,arial,georgia,sans-serif;
+}
+
+
+@keyframes color-change {
+    0%{background-color: #808080;}
+    10%{background-color: #808080;}
+    20%{background-color: #FFFFFF;}
+    30%{background-color: #FF0000;}
+    40%{background-color: #FF00FF;}
+    50%{background-color: #C0FF00;}
+    60%{background-color: #FFFF00;}
+    70%{background-color: #FF7F00;}
+    80%{background-color: #0000FF;}
+    90%{background-color: #30D5C8;}
+    100%{background-color: #808080;}
+    
+}
+
+
+@keyframes size-change {
+    0%{font-size: 40px;}
+    50%{font-size: 45px;}
+    100%{font-size: 40px;}
+}
+
+body {
+    animation: color-change 30s infinite;
+}
+
+.enterDataButton {
+    border-radius: 30px;
+    background-color: white;
+    font-size: 40px;
+
+}
+
+.enterDataButton:hover {
+    animation: size-change 2s infinite;
+}
+
+.sql_kayıt{
+    opacity: 0.7;
+}
+
+.açıklama{
+    font-family: DINNextW05-Bold,arial,georgia,sans-serif;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>İşlem başarılı</title>
+        <link rel="stylesheet" href="../static/basarili.css">
+    </head>
+    <body>
+        {% block content %}
+        <a href="/"><img src="../static/home.png" alt="anasayfa" class="home_button", height="50px" width="50px"></a>
+        <img src="../static/onay.png" width="100" height="100" alt="İşlem başarılı" class="onay_png">
+        <h1 class="basarili_islem">İşleminiz başarılı. İşlem kodu: {{ islemId }}</h1>
+
+        
+
+        {% endblock %}
+    </body>
+</html>

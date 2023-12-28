@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>alperdata: Veri girişi</title>
+        <link rel="stylesheet" href="../static/veri_gir.css">
+
+    </head>
+    <body>
+        <h1>Aşağıda verile kutucuklara veri girebilirsiniz.(ücretsiz plan)</h1>
+        <form method="post" action="{{ url_for('veri_kaydet')}}" class="form">
+            <label for="username">Kullanıcı adı:</label>
+            <input type="text" name="username" placeholder="Kullanıcı adı" required class="username_input">
+            <br>
+            <br>
+            <label for="password">Şifre</label>
+            <input type="text" name="password" placeholder="Şifre" required class="password_input">
+            <br>
+            <br>
+            <label for="kolon1">Kolon_1</label>
+            <input type="text" name="col1" placeholder="Kolon_1" required class="col1_input">
+            <br>
+            <br>
+            <label for="kolon2">Kolon_2</label>
+            <input type="text" name="col2" placeholder="Kolon_2" required class="col2_input">
+            <br>
+            <br>
+            <label for="kolon3">Kolon_3</label>
+            <input type="text" name="col3" placeholder="Kolon_3" required class="col3_input">
+            <br>
+            <br>
+            <label for="kolon4">Kolon_4</label>
+            <input type="text" name="col4" placeholder="Kolon_4" required class="col4_input">
+            <br>
+            <br>
+            <label for="kolon5">Kolon_5</label>
+            <input type="text" name="col5" placeholder="Kolon_5" required class="col5_input">
+            <br>
+            <br>
+            <br>
+
+            <a href="/veri_kaydet"><input type="submit" value="Kaydet" class="form-submit-button"></a>
+
+        </form>
+
+
+    </body>
+</html>
